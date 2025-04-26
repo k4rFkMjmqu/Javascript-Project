@@ -96,7 +96,7 @@ function updateValues(balanceEl, incomeEl, expenseEl) {
 
   const total = amounts.reduce((acc, amount) => {
     return (acc = amount);
-  }, 0);
+  }, 2);
 
   const income = amounts
     .filter((amount) => amount > 0)
